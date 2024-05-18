@@ -1,0 +1,133 @@
+.main_content_wrapper {
+	height: 100vh;
+	/* height: fit-content; */
+	padding: 0;
+	margin: 0;
+	gap: 30vh;
+}
+.abonements_wrapper {
+	background-color: rgba(250, 186, 0, 0.8);
+	margin: 30px;
+	width: 100%;
+	height: fit-content;
+	justify-content: center;
+	align-items: center;
+}
+.abonements_title_text {
+	background-color: #a0801fb9;
+	color: rgba(241.00000083446503, 228.0000016093254, 189.00000393390656, 1);
+	width: 100%;
+	margin: 5vh;
+	padding: 1vh 0;
+	font-family: Montserrat;
+	font-size: x-large;
+	letter-spacing: 0;
+}
+.abonement_item_wrapper {
+	/* height; */
+	height: 90%;
+	padding: 15px 5px;
+	/* gap: 10px; */
+	justify-content: space-evenly;
+}
+.abonements_items_scroll {
+	/* padding: 0 50%; */
+	gap: 0%;
+	align-items: center;
+}
+.abonements_items_scroll_wrapper {
+	width: 100%;
+}
+.abonements_items_scroll_wrapper a {
+	text-decoration: none;
+	width: 100%;
+}
+.abonements_buttons_wrapper {
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	height: fit-content;
+	margin: 20px 10px;
+	gap: 15px;
+}
+.abonements-scroll-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bolder;
+	font-size: xx-large;
+	position: relative;
+	transform: translateY(-10%);
+	background: transparent;
+	border-radius: 50%;
+	cursor: pointer;
+	background-color: transparent;
+	padding: 5px;
+	box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.194);
+}
+.abonements_items_scroll_wrapper::content {
+	margin: 40px;
+}
+.abonement_item {
+	background-color: rgba(
+		241.00000083446503,
+		228.0000016093254,
+		189.00000393390656,
+		1
+	);
+	border-radius: 10px;
+	display: block;
+	position: relative;
+	height: 100%;
+	max-height: 300px;
+
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+/* .abonement_item:hover {
+	background-color: rgb(255, 219, 112);
+} */
+.abonement_name {
+	color: #a58937;
+	letter-spacing: 1px;
+}
+.abonement_item_description_wrapper {
+	display: block;
+	width: 400px;
+	height: auto;
+	padding: 10px;
+}
+.abonement_item_description_text {
+	color: rgba(122.00000032782555, 107.00000122189522, 61.00000016391277, 1);
+	width: 338.5px;
+	height: 133px;
+	font-family: Montserrat;
+	text-align: left;
+	font-size: 15px;
+	letter-spacing: 0;
+}
+.abonement_item_cost_wrapper {
+	width: 100%;
+	height: auto;
+}
+.abonement_item_cost_text {
+	width: 333.375px;
+	height: 39px;
+	font-family: Montserrat;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 800;
+	letter-spacing: 0;
+}
+.abonement_buy_button {
+	background-color: transparent;
+	color: #a58937;
+	border-width: 3px;
+	border-color: #a58937;
+	padding: 7px;
+}
+.abonement_buy_button:hover {
+	background-color: #caad56;
+	color: white;
+	border-color: white;
+}
